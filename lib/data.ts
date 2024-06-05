@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import craiglistImg from "@/public/craiglist.png";
+import pubsubImg from "@/public/pubsub.png";
+import redditImg from "@/public/reddit.png";
+
 
 export const links = [
   {
@@ -35,73 +36,95 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer",
+    location: "Hyderabad, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Skills: Html, CSS, JavaScript, Microsoft Dynamics 365, PowerApps, SharePoint, Splunk, C#, .NET. SQL Server, ServiceNOW, SSIS, SSAS, PowerBI, SQL Server.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jan 2019 - Apr 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineering Intern",
+    location: "Rochester, NY",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Skills: SSIS, SSAS, PowerBI, SQL Server, C#.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jun 2022 - Aug 2022",
+  },
+  {
+    title: "Software Engineering Intern",
+    location: "Rochester, NY",
+    description:
+      "Skills: Microsoft Fabric, PySpark Python, SQL, Power Query, Power Automate, Sharepoint. ",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "May 2023 - Dec 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Pub-Sub Model",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Created a highly scalable publish-subscribe messaging model using Docker, enabling seamless real-time communication and enhancing system reliability, resulting in a 30% reduction in response time.",
+    tags: ["Python", "Docker"],
+    imageUrl: pubsubImg,
   },
   {
-    title: "rmtDev",
+    title: "Craiglist Search",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Built a web application enabling users to search for cars on Craigslist by manufacturer or proximity (5km radius). Processed and stored data for over 5K+ vehicles, significantly improving search efficiency and user experience.",
+    tags: ["MongoDB", "FastAPI", "Python", "HTML", "JavaScript"],
+    imageUrl: craiglistImg,
   },
   {
-    title: "Word Analytics",
+    title: "Reddit Firehose",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Designed Spring Boot microservices to extract data from Reddit’s API and stream into Kafka. Leveraged Docker compose to bring up Kafka cluster of multiple brokers. Externalized configuration of entire application using Spring Cloud Config.",
+    tags: ["Java", "Spring Boot", "Kafka", "Docker", "Microservice"],
+    imageUrl: redditImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Python",
+  "Java",
+  "C#",
+  ".NET",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
+  "Tailwind CSS",
+  "C++",
+  "SQL",
+  "HTML",
+  "CSS",
+  "XML",
+  "C",
+  "SQL Server",
+  "MySQL",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Neo4J",
+  "H-2 Database",
+  "M Query",
+  "DAX Query",
+  "Azure DataBricks",
+  "Azure Data Factory",
+  "Power Query",
+  "Cosmos DB",
+  "PowerBI",
+  "SSIS",
+  "SSAS",
+  "Apache Spark",
+  "SharePoint",
+  "Dynamics 365",
+  "ArcGIS",
+  "Git",
+  "Docker",
+  "Power Automate",
+  "Microsoft Fabric",
+  "Git",
+  "SNOW",
+  "Kafka"  
 ] as const;
