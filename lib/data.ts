@@ -36,7 +36,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer",
+    title: "MAQSoftware, Software Engineer",
     location: "Hyderabad, India",
     description:
       "Skills: Html, CSS, JavaScript, Microsoft Dynamics 365, PowerApps, SharePoint, Splunk, C#, .NET. SQL Server, ServiceNOW, SSIS, SSAS, PowerBI, SQL Server.",
@@ -44,7 +44,7 @@ export const experiencesData = [
     date: "Jan 2019 - Apr 2021",
   },
   {
-    title: "Software Engineering Intern",
+    title: "Excellus, Software Engineering Intern",
     location: "Rochester, NY",
     description:
       "Skills: SSIS, SSAS, PowerBI, SQL Server, C#.",
@@ -52,7 +52,7 @@ export const experiencesData = [
     date: "Jun 2022 - Aug 2022",
   },
   {
-    title: "Software Engineering Intern",
+    title: "RIT, Software Engineering Intern",
     location: "Rochester, NY",
     description:
       "Skills: Microsoft Fabric, PySpark Python, SQL, Power Query, Power Automate, Sharepoint. ",
