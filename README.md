@@ -9,7 +9,9 @@ Next.js 13 🔥
 TypeScript 🟦  
 Tailwind CSS 🎨  
 Framer Motion 🌀  
-Context API 🌐      
+Context API 🌐  
+
+  
 🛠️ Setup  
 
 Clone the repository:  
