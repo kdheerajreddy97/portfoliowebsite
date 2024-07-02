@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Excellus, Software Engineering Intern",
     location: "Rochester, NY",
     description:
-      "Skills: SSIS, SSAS, PowerBI, SQL Server, C#.",
+      "Skills: Java, React.js, Docker, SSIS, SSAS, PowerBI, SQL Server.",
     icon: React.createElement(LuGraduationCap),
     date: "Jun 2022 - Aug 2022",
   },
@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "RIT, Software Engineering Intern",
     location: "Rochester, NY",
     description:
-      "Skills: Microsoft Fabric, PySpark Python, SQL, Power Query, Power Automate, Sharepoint. ",
+      "Skills: Microsoft Fabric, PySpark Python, SQL, Power Query, Power Automate, Sharepoint, PowerBI. ",
     icon: React.createElement(FaReact),
     date: "May 2023 - Dec 2023",
   },
