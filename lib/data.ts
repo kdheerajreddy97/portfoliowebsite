@@ -80,7 +80,7 @@ export const projectsData = [
     title: "Movie Reviews App",
     description:
       "Developed a full-stack application for browsing and reviewing movies, using React for the front end and Spring Boot for the back end. Implemented RESTful APIs to manage movies and reviews, enabling users to submit and view movie reviews. ",
-    tags: ["Java", "Spring Boot", "Reacy", "MongoDb"],
+    tags: ["Java", "Spring Boot", "React", "MongoDb"],
     imageUrl: redditImg,
   },
 ] as const;
