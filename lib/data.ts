@@ -79,7 +79,7 @@ export const projectsData = [
   {
     title: "Movie Reviews App",
     description:
-      "Developed a full-stack application for browsing and reviewing movies, using React for the front end and Spring Boot for the back end. Implemented RESTful APIs to manage movies and reviews, enabling users to submit and view movie reviews. Integrated MongoDB for efficient data storage and retrieval, supporting dynamic and scalable data models. Enhanced user engagement and system reliability through seamless integration of frontend and backend technologies. Currently hosted locally, facilitating real-time data updates and review submissions during the development phase.",
+      "Developed a full-stack application for browsing and reviewing movies, using React for the front end and Spring Boot for the back end. Implemented RESTful APIs to manage movies and reviews, enabling users to submit and view movie reviews. ",
     tags: ["Java", "Spring Boot", "Reacy", "MongoDb"],
     imageUrl: redditImg,
   },
