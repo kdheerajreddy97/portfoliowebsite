@@ -79,8 +79,8 @@ export const projectsData = [
   {
     title: "Reddit Firehose",
     description:
-      "Designed Spring Boot microservices to extract data from Reddit’s API and stream into Kafka. Leveraged Docker compose to bring up Kafka cluster of multiple brokers. Externalized configuration of entire application using Spring Cloud Config.",
-    tags: ["Java", "Spring Boot", "Kafka", "Docker", "Microservice"],
+      "Developed a full-stack application for browsing and reviewing movies, using React for the front end and Spring Boot for the back end. Implemented RESTful APIs to manage movies and reviews, enabling users to submit and view movie reviews. Integrated MongoDB for efficient data storage and retrieval, supporting dynamic and scalable data models. Enhanced user engagement and system reliability through seamless integration of frontend and backend technologies. Currently hosted locally, facilitating real-time data updates and review submissions during the development phase.",
+    tags: ["Java", "Spring Boot", "Reacy", "MongoDb"],
     imageUrl: redditImg,
   },
 ] as const;
