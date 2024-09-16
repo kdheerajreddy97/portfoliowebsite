@@ -45,16 +45,16 @@ export const experiencesData = [
     date: "Jan 2019 - Apr 2021",
   },
   {
-    title: "Excellus, Intern - Data & Analytics Team",
-    location: "Rochester, NY",
+    title: "Excellus, Software Engineering Intern - Data & Analytics Team",
+    location: "Rochester, NY, USA",
     description:
       "Skills: Java, React.js, Docker, SSIS, SSAS, PowerBI, SQL Server.",
     icon: React.createElement(LuGraduationCap),
     date: "Jun 2022 - Aug 2022",
   },
   {
-    title: "RIT Auxillary Services, Intern - Software & Data Team",
-    location: "Rochester, NY",
+    title: "Rochester Institute of Technology, Software Engineering Intern  - Auxillary Service Team",
+    location: "Rochester, NY, USA",
     description:
       "Skills: Microsoft Fabric, PySpark Python, SQL, Power Query, Power Automate, Sharepoint, PowerBI. ",
     icon: React.createElement(LuGraduationCap),
@@ -62,7 +62,7 @@ export const experiencesData = [
   },
   {
     title: "Croyance, Software Engineer",
-    location: "United States",
+    location: "Remote, USA",
     description:
       "Skills: Java, Spring Boot, GraphQL, Apache Kafka, Docker, Kubernetes, AWS.",
     icon: React.createElement(FaReact),
@@ -77,6 +77,7 @@ export const projectsData = [
       "Created a highly scalable publish-subscribe messaging model using Docker, enabling seamless real-time communication and enhancing system reliability, resulting in a 30% reduction in response time.",
     tags: ["Python", "Docker"],
     imageUrl: pubsubImg,
+    link: "https://github.com/kdheerajreddy97/DFS-Pub-Sub" 
   },
   {
     title: "Craiglist Search",
