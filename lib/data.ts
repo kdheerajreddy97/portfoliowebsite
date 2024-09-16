@@ -35,11 +35,12 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  
   {
     title: "MAQSoftware, Software Engineer",
     location: "Hyderabad, India",
     description:
-      "Skills: Html, CSS, JavaScript, React.js, Node.js, Microsoft Dynamics 365, PowerApps, SharePoint, Splunk, C#, .NET, SQL Server, ServiceNOW, SSIS, SSAS, PowerBI.",
+      "Skills: HTML, CSS, JavaScript, React.js, Node.js, Microsoft Dynamics 365, PowerApps, SharePoint, Splunk, C#, .NET, SQL Server, ServiceNOW, SSIS, SSAS, PowerBI.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2019 - Apr 2021",
   },
@@ -56,9 +57,17 @@ export const experiencesData = [
     location: "Rochester, NY",
     description:
       "Skills: Microsoft Fabric, PySpark Python, SQL, Power Query, Power Automate, Sharepoint, PowerBI. ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "May 2023 - Dec 2023",
   },
+  {
+    title: "Croyance, Software Engineer",
+    location: "United States",
+    description:
+      "Skills: Java, Spring Boot, GraphQL, Apache Kafka, Docker, Kubernetes, AWS.",
+    icon: React.createElement(FaReact),
+    date: "Jan 2024 - Present",
+  }
 ] as const;
 
 export const projectsData = [
