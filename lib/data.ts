@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "Pub-Sub Model",
     description:
-      "Created a highly scalable publish-subscribe messaging model using Docker, enabling seamless real-time communication and enhancing system reliability, resulting in a 30% reduction in response time.",
+      "Created a highly scalable publish-subscribe messaging model using Docker, enabling seamless real-time communication and enhancing system reliability, resulting in a 30% reduction in response time. Test",
     tags: ["Python", "Docker"],
     imageUrl: pubsubImg,
     link: "https://github.com/kdheerajreddy97/DFS-Pub-Sub",
