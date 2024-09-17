@@ -108,7 +108,7 @@ export const projectsData = [
   {
     title: "HackerNews Article Scraper",
     description:
-      "This project is a Node.js script that uses Playwright to scrape and sort the latest articles from the newest page of Hacker News. The script collects the titles and timestamps of the 100 most recent articles and then checks if they are correctly sorted from newest to oldest based on their timestamps.",
+      "This project is a Node.js script that uses Playwright to scrape and sort the latest articles from the newest page of Hacker News.",
     tags: ["Node.js", "npm"],
     imageUrl: hackernews,
     link: "https://github.com/kdheerajreddy97/HackerNews_ArticleScraper",
