@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import craiglistImg from "@/public/craiglist.png";
 import pubsubImg from "@/public/pubsub.png";
 import redditImg from "@/public/reddit.png";
+import ingresubs from "@/public/IngreSubs.png";
 
 
 export const links = [
@@ -72,9 +73,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Ingredient Substitution Tool",
+    description:
+      "The Ingredient Substitution Tool is a web application designed to help users find and contribute cooking ingredient substitutes. This application is built with a React.js frontend and a Django REST Framework backend.",
+    tags: ["React.js", "Django", "Python", "Node.js"],
+    imageUrl: ingresubs,
+    link: "https://github.com/kdheerajreddy97/ingredient-substitution-tool",
+  },
+  {
     title: "Pub-Sub Model",
     description:
-      "Created a highly scalable publish-subscribe messaging model using Docker, enabling seamless real-time communication and enhancing system reliability, resulting in a 30% reduction in response time. Test",
+      "Created a highly scalable publish-subscribe messaging model using Docker, enabling seamless real-time communication and enhancing system reliability, resulting in a 30% reduction in response time.",
     tags: ["Python", "Docker"],
     imageUrl: pubsubImg,
     link: "https://github.com/kdheerajreddy97/DFS-Pub-Sub",
