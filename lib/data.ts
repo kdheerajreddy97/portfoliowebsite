@@ -6,6 +6,7 @@ import craiglistImg from "@/public/craiglist.png";
 import pubsubImg from "@/public/pubsub.png";
 import redditImg from "@/public/reddit.png";
 import ingresubs from "@/public/IngreSubs.png";
+import hackernews from "@/public/hackernews.png";
 
 
 export const links = [
@@ -103,6 +104,14 @@ export const projectsData = [
     tags: ["Java", "Spring Boot", "React", "MongoDb"],
     imageUrl: redditImg,
     link: "https://github.com/kdheerajreddy97/movie-reviews-app",
+  },
+  {
+    title: "HackerNews Article Scraper",
+    description:
+      "This project is a Node.js script that uses Playwright to scrape and sort the latest articles from the "newest" page of Hacker News. The script collects the titles and timestamps of the 100 most recent articles and then checks if they are correctly sorted from newest to oldest based on their timestamps.",
+    tags: ["Node.js", "npm"],
+    imageUrl: hackernews,
+    link: "https://github.com/kdheerajreddy97/HackerNews_ArticleScraper",
   },
 ] as const;
 
