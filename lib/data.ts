@@ -85,6 +85,7 @@ export const projectsData = [
       "Built a web application enabling users to search for cars on Craigslist by manufacturer or proximity (5km radius). Processed and stored data for over 5K+ vehicles, significantly improving search efficiency and user experience.",
     tags: ["MongoDB", "FastAPI", "Python", "HTML", "JavaScript"],
     imageUrl: craiglistImg,
+    link: "https://github.com/kdheerajreddy97/Car_Search_MongoDB",
   },
   {
     title: "Movie Reviews App",
@@ -92,6 +93,7 @@ export const projectsData = [
       "Developed a full-stack application for browsing and reviewing movies, using React for the front end and Spring Boot for the back end. Implemented RESTful APIs to manage movies and reviews, enabling users to submit and view movie reviews. ",
     tags: ["Java", "Spring Boot", "React", "MongoDb"],
     imageUrl: redditImg,
+    link: "https://github.com/kdheerajreddy97/movie-reviews-app",
   },
 ] as const;
 
