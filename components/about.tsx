@@ -17,16 +17,13 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        👨‍💻 I’m a <span className="font-medium">Software Engineer</span> 
-        specializing in <span className="font-medium">Java, Python, Spring Boot, Kafka</span>, and 
-        creating <span className="font-medium">scalable solutions</span> for distributed systems. 
-        I'm passionate about <span className="font-medium">system design</span> and solving complex problems 
-        through <span className="font-medium">automation</span>. 🚀 
-        Currently seeking new opportunities to bring my skills to impactful projects.
+        👨‍💻 I’m a <span className="font-medium">Software Engineer</span> specializing in <span className="font-medium">Java, Python, Spring Boot, Kafka</span>, and creating scalable solutions for distributed systems. I'm passionate about <span className="font-medium">system design</span> and solving complex problems through automation.
       </p>
-
+      <p className="mb-3">
+        🚀 Currently seeking new opportunities to bring my skills to impactful projects.
+      </p>
       <p>
         Outside of coding, I stay active with gym workouts and badminton. My downtime is spent playing video games and watching movies. I am also keen on <span className="font-medium">learning new things</span>, currently focusing on fitness techniques and musical pursuits like playing the guitar.
       </p>
