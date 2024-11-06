@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1716621418726-c8621fc6cf43?q=80&w=1976&auto=format&fit=crop&w=368&h=368&q=100"
+              src="https://images.unsplash.com/photo-1730931721732-c5a81063fd98?q=80&w=800&h=800&auto=format&fit=crop"
               alt="Dheeraj portrait"
               width="192"
               height="192"
